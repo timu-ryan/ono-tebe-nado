@@ -10,10 +10,11 @@
   font-size: 18px;
   line-height: 24.3px;
   color: #000000;
+  text-underline-offset: 4px;
 }
 
 .header {
-  margin: 92px 50px;
+  margin: 98px 50px;
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -72,10 +73,10 @@
 }
 
 .cover__title {
-  padding: 145px 50px 147px;
+  padding: 172px 50px 148px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 24px;
   position: relative;
   z-index: 1;
 
@@ -95,14 +96,33 @@
 .aligned-text {
   display: block;
   text-align: left;
+  letter-spacing: 0.3em;
+}
+
+.letter-spacing-extended {    
+  padding: 0 0 0 30px;
 }
 
 .aligned-text_center {
   text-align: center;
+  letter-spacing: 0.3em;
+}
+
+.aligned-text_center .letter-spacing-extended { 
+  padding: 0;   
+  position: relative;
+  top: 0;
+  right: 30px;
 }
 
 .aligned-text_right {
   text-align: right;
+}
+
+.aligned-text_right .letter-spacing-extended {
+  padding: 0;
+  position: relative;
+  left: 30px;
 }
 
 .cover__description {
@@ -112,7 +132,8 @@
 }
 
 .cover__description-text {
-  word-spacing: 15px;
+  word-spacing: 18px;
+  padding: 0 0 0 34px;
 
   font-family: 'Raleway';
   font-style: normal;
@@ -247,6 +268,7 @@
   font-size: 20px;
   line-height: 23px;
   text-decoration: underline;
+  text-underline-offset: 4px;
 
   color: #000000;
 }
@@ -255,6 +277,7 @@
   margin: 180px 50px 0;
   display: grid;
   column-gap: 25px;
+  row-gap: 8px;
   grid-template-columns: 430px 1fr;
   grid-template-rows: 240px;
   grid-template-areas: 
@@ -299,7 +322,7 @@
   grid-area: info;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 30px;
 }
 
 .about__text {
@@ -313,7 +336,7 @@
 }
 
 .footer {
-  margin: 180px 50px 90px;
+  margin: 184px 50px 90px;
   display: flex;
   justify-content: space-between; 
 }
@@ -334,6 +357,7 @@
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+  text-underline-offset: 4px;
 
   color: #000000;
 }
