@@ -226,7 +226,7 @@
 .card__text {
   position: relative;
   z-index: 1;
-  
+
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
@@ -250,3 +250,65 @@
 
   color: #000000;
 }
+
+.about {
+  margin: 180px 50px 0;
+  display: grid;
+  column-gap: 25px;
+  grid-template-columns: 430px 1fr;
+  grid-template-rows: 240px;
+  grid-template-areas: 
+  "logo title"
+  ". info";
+}
+
+.about__logo {
+  justify-self: center;
+  grid-area: logo;
+  background-color: #000000;
+  width: 240px;
+  border-radius: 50%;
+  position: relative;
+}
+
+
+.about__logo-image {
+  width: 148px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about__title {
+  grid-area: title;
+  align-self: center;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  /* identical to box height */
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.about__text-container {
+  grid-area: info;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.about__text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
