@@ -100,7 +100,7 @@
   letter-spacing: 0.3em;
 }
 
-.letter-spacing-extended {    
+.letter-spacing-extended {
   padding: 0 0 0 30px;
 }
 
@@ -109,8 +109,8 @@
   letter-spacing: 0.3em;
 }
 
-.aligned-text_center .letter-spacing-extended { 
-  padding: 0;   
+.aligned-text_center .letter-spacing-extended {
+  padding: 0;
   position: relative;
   top: 0;
   right: 30px;
@@ -339,7 +339,7 @@
 .footer {
   margin: 184px 50px 90px;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .footer__menu {
