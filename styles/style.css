@@ -2,7 +2,7 @@
 
 
 .address {
-  width: 240px;
+  width: 236px;
 
   font-family: 'Raleway';
   font-style: normal;
@@ -142,7 +142,7 @@
   font-size: 22px;
   line-height: 28px;
   /* identical to box height, or 127% */
-  text-align: center;
+  /* text-align: center; */
   text-transform: uppercase;
 
   color: #FFFFFF;
@@ -172,7 +172,7 @@
 }
 
 .lots {
-  margin: 180px 50px 0;
+  margin: 180px 24px 0;
 }
 
 .lots__heading {
@@ -201,8 +201,8 @@
 
 .card-link {
   display: block;
-  width: 430px;
-  height: 450px;
+  width: 334px;
+  height: 563px;
 }
 
 .card {
@@ -275,11 +275,11 @@
 }
 
 .about {
-  margin: 180px 50px 0;
+  margin: 180px 24px 0;
   display: grid;
   column-gap: 25px;
   row-gap: 8px;
-  grid-template-columns: 430px 1fr;
+  grid-template-columns: 334px 1fr;
   grid-template-rows: 240px;
   grid-template-areas: 
   "logo title"
